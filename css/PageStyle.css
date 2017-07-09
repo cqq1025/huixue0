@@ -1,0 +1,20 @@
+﻿body {
+}
+/*page*/
+ .page {width:460px;margin:0 auto; overflow:hidden; padding:10px 0;}
+.page a {display:inline-block; padding:2px 9px; border:1px solid #e2e2e2; border-radius:3px; text-align:center;}
+.page a:hover {text-decoration:none;}
+.page a.pagecur {background:#0084d6; border:0; color:#fff; font-weight:bold;}
+.page a.pagemid {border:0;}
+.page a.pageprev {padding-left:18px; background:url(../images/2015zntb/jtL.png) no-repeat 6px center;}
+.page a.pagenext {padding-right:18px; background:url(../images/2015zntb/jtR.png) no-repeat 50px center;}
+.page li{float:left;}
+.page span{padding:2px 9px; border:1px solid #e2e2e2;border-radius:3px;}
+ul li
+{
+    border:none; list-style:none;
+}
+.page .active a
+{
+    color: Red;
+}
